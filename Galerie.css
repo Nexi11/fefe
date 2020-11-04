@@ -1,0 +1,168 @@
+body {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-family: "Times New Roman", Times, serif;
+}
+
+html {
+	background: url(https://images.unsplash.com/photo-1527090526205-beaac8dc3c62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@font-face {
+	font-family: "chopsicregular";
+	src: url("font/chopsic-k6dp-webfont.woff2") format("woff2"), url("font/chopsic-k6dp-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "painterregular";
+	src: url("font/painter-lxxg-webfont.woff2") format("woff2"), url("font/painter-lxxg-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+ul.a {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-family: "Times New Roman", Times, serif;
+}
+
+li a {
+	float: left;
+	border-right: 1px solid #bbb;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #d3d3d3;
+	transition: 0.5s;
+}
+
+.insc {
+	border-left: 1px solid #bbb;
+}
+
+.active {
+	background-color: rgb(0, 162, 255);
+}
+
+.lien {
+	color: white;
+}
+
+footer {
+	height: 4em;
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	background-color: rgb(134, 130, 130);
+	color: #fff;
+	font-family: "Roboto", sans-serif;
+}
+
+.certif {
+	height: 2.5em;
+	justify-content: center;
+	background-color: rgb(59, 59, 59);
+}
+
+ul.b {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.dos {
+	float: left;
+}
+
+.fa {
+	text-align: center;
+	border-radius: 50%;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #3b5998;
+	color: white;
+	margin-left: 5px;
+}
+
+.fa-twitter {
+	background: #55acee;
+	color: white;
+	margin-left: 5px;
+}
+
+.fa-snapchat-ghost {
+	background: #fffc00;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-left: 5px;
+}
+
+.dob {
+	float: right;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-decoration: underline rgb(0, 162, 255);
+	font-family: "chopsicregular";
+	color: black;
+	font-size: 70px;
+	text-align: center;
+	margin-bottom: 200px;
+	margin-top: 130px;
+}
+
+.Display_galerie {
+	display: flex;
+	justify-content: center;
+}
+
+.Display_images {
+	display: inline-block;
+	justify-content: center;
+	padding-right: 5vw;
+	min-width: 0;
+	min-height: 0;
+}
+
+.image {
+	border-radius: 10%;
+	filter: grayscale(95%);
+}
+
+img:hover {
+	opacity: 1;
+	transition: 1s;
+	filter: grayscale(0%);
+}
+
+.Display_Texte {
+	text-align: center;
+	font-family: "painterregular";
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: rgba(0, 89, 255, 0.411);
+}

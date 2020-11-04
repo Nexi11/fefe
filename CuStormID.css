@@ -1,0 +1,244 @@
+html {
+	background: url(assets/PIGALLE-BASKETBALL.jpg) no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-moz-background-size: cover;
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	overflow: hidden;
+}
+
+#boutonsCouleur {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: white;
+}
+
+#container {
+	width: 100vw;
+	height: 100vh;
+	padding-top: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.row {
+	display: table-row;
+	margin-left: 3vw;
+	margin-top: 1.5vh;
+}
+
+label {
+	display: table-cell;
+	overflow: hidden;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 1.5vw;
+}
+
+input {
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+.shoe {
+	position: absolute;
+}
+
+#back {
+	width: 2000px;
+	height: 1024px;
+	background: url("air_force1/back.png") no-repeat;
+	background-size: 100% auto;
+	max-width: 40%;
+}
+
+#bottom {
+	width: 2000px;
+	height: 1024px;
+	background: url("air_force1/bottom.png") no-repeat;
+	background-size: 100% auto;
+	max-width: 40%;
+}
+
+#front {
+	width: 2000px;
+	height: 1024px;
+	background: url("air_force1/front.png") no-repeat;
+	background-size: 100% auto;
+	max-width: 40%;
+}
+
+#heel_tab {
+	width: 2000px;
+	height: 1024px;
+	background: url("air_force1/heel_tab.png") no-repeat;
+	background-size: 100% auto;
+	max-width: 40%;
+}
+
+#middle {
+	width: 2000px;
+	height: 1024px;
+	background: url("air_force1/middle.png") no-repeat;
+	background-size: 100% auto;
+	max-width: 40%;
+}
+
+#reste {
+	width: 2000px;
+	height: 1024px;
+	background: url("air_force1/reste.png") no-repeat;
+	background-size: 100% auto;
+	max-width: 40%;
+}
+
+#swoosh {
+	width: 2000px;
+	height: 1024px;
+	background: url("air_force1/swoosh.png") no-repeat;
+	background-size: 100% auto;
+	max-width: 40%;
+}
+
+#tab {
+	width: 2000px;
+	height: 1024px;
+	background: url("air_force1/tab.png") no-repeat;
+	background-size: 100% auto;
+	max-width: 40%;
+}
+
+#upper {
+	width: 2000px;
+	height: 1024px;
+	background: url("air_force1/upper.png") no-repeat;
+	background-size: 100% auto;
+	max-width: 40%;
+}
+
+#upper_front {
+	width: 2000px;
+	height: 1024px;
+	background: url("air_force1/upper_front.png") no-repeat;
+	background-size: 100% auto;
+	max-width: 40%;
+}
+
+.cls {
+	mix-blend-mode: multiply;
+}
+
+ul.a {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-family: "Times New Roman", Times, serif;
+}
+
+li a {
+	float: left;
+	border-right: 1px solid #bbb;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #d3d3d3;
+	transition: 0.5s;
+}
+
+.insc {
+	border-left: 1px solid #bbb;
+}
+
+.active {
+	background-color: rgb(0, 162, 255);
+}
+
+.lien {
+	color: white;
+}
+
+footer {
+	height: 4em;
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	background-color: rgb(134, 130, 130);
+	color: #fff;
+}
+
+.footerA {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding-top: 1rem;
+}
+
+.certif {
+	height: 2.5em;
+	justify-content: center;
+	background-color: rgb(59, 59, 59);
+}
+
+ul.b {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.fa {
+	text-align: center;
+	border-radius: 50%;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #3b5998;
+	color: white;
+	margin-left: 5px;
+}
+
+.fa-twitter {
+	background: #55acee;
+	color: white;
+	margin-left: 5px;
+}
+
+.fa-snapchat-ghost {
+	background: #fffc00;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-left: 5px;
+}
+
+.dos {
+	float: left;
+}
+
+.dob {
+	float: right;
+}

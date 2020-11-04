@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>À propos - CuStorm</title>
+	<link rel="stylesheet" href="A_Propos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+
+
+<body>
+	<div>
+		<ul class="a">
+			<li><a href="accueil.html"><i class="fa fa-fw fa-home"></i> Accueil </a></li>
+			<li><a href="CuStormID.html"> CuStormID </a></li>
+			<li><a href="Articles.html"> Articles</a></li>
+			<li><a href="Galerie.html"> Galerie</a></li>
+			<li><a class="active" href="A_Propos.html"> À propos </a></li>
+		</ul>
+
+	</div>
+
+	<header class="header">
+		<h1 class="jing">À Propos</h1>
+		<img class="header_logo" src="assets/logo.png" />
+	</header>
+
+	<div class="Display_equipe">
+		<div class="Display_images">
+			<img src="assets/Dominik.png" class="image">
+			<div class="Display_Texte">
+				<p>
+					Dominik RADZIK <br>
+					Né le 20 Novembre 1999, <br>
+					Logo and Page Designer
+				</p>
+			</div>
+		</div>
+
+		<div class="Display_images">
+			<img src="assets/Vincent.jpg" class="image">
+			<div class="Display_Texte">
+				<p>
+					Vincent PETIT <br>
+					Né le 28 Février 2000, <br>
+					Code specialist
+				</p>
+
+			</div>
+		</div>
+
+		<div class="Display_images">
+			<img src="assets/Youssef.jpg" class="image">
+			<div class="Display_Texte">
+				<p>
+					Youssef EL TANAHI <br>
+					Né le 6 Novembre 1998, <br>
+					Sneaker Customer
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="displayed">
+
+		<p>
+			<br>
+		</p>
+
+		<button class="accordion"> Qui sommes nous ?</button>
+		<!--<br><h2><strong> Qui sommes nous ? </strong></h2>
+    	<div class="container">
+    			<div class="shadowbox">-->
+		<div class="panel">
+			<!--<br>-->
+			<p> Nous sommes un groupes formés de trois étudiants en école d'ingénieur et avons décidé de créer Custorm
+				dans le cadre d'un projet d'étude.</p>
+		</div>
+		<!--</div>
+
+    		<br>
+    		<div>
+    			<hr>
+    		</div>
+
+    		<h2><strong> Pourquoi "Le Salon" ? </strong> </h2>
+    	<div class="container">
+    		<div class="shadowbox">-->
+		<button class="accordion"> Pourquoi "CuStorm" ?</button>
+
+		<div class="panel">
+			<p> 
+				La customisation de chaussures est un aspect à part entière de l'univers de la sneaker. <br>
+				Cette partie est très négligée de nos jours, mais nous voulions la mettre en valeur, puisque c'est un processus créatif qui laisse libre cours à l'imagination des individus. <br>
+				C'est une passion très accessible, mais très méconnue, puisque les gens ne s'y intéressent pas assez. <br>
+				Nous avons donc choisi une des paires les plus customisées en règle générale, la Air Force One, pour que les gens puissent s'essayer au jeu de la customisation.
+			</p>
+		</div>
+		<!--</div>
+    	</div>
+
+    		<br>
+    		<div>
+    			<hr>
+    		</div>-->
+		<button class="accordion"> Le monde des sneakers </button>
+		<div class="panel">
+			<p>
+				L'univers de la sneaker est très vaste, et c'est pour cela que nous l'apprécions autant. Il existe tellement de marques différentes, de modèles, de colorway, que n'importe qui peut s'y retrouver. <br>
+				En outre, la capacité à apprécier quelque chose étant subjective, nous pensons que tout le monde peut créer "sa paire idéale" s'il possédait les ressources pour le faire. <br>
+				C'est pour cela que la customisation est très importante, pour que tout le monde puisse créer cette fameuse paire.
+			</p>
+		</div>
+
+		<button class="accordion"> Vous rencontrez des problemes sur le site ? </button>
+		<div class="panel">
+			<p> Veuillez nous contacter via nos adresses mails : <br>
+				<ul>vincent.petit@efrei.net</ul> 
+				<ul>youssef.eltanahi@efrei.net </ul>
+				<ul>dominik.radzik@efrei.net </ul>	
+			</p>
+			</div>
+
+	</div>
+
+
+
+
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var panel = this.nextElementSibling;
+				if (panel.style.maxHeight) {
+					panel.style.maxHeight = null;
+				} else {
+					panel.style.maxHeight = panel.scrollHeight + "px";
+				}
+			});
+		}
+	</script>
+
+
+	<div class="footerA"></div>
+	<footer>
+		<div>
+			<ul class="b">
+				<br>
+				<li class="dos"><a href="accueil.html"> Accueil </a></li>
+				<li class="dos"><a href="CuStormID.html"> CuStormID </a></li>
+				<li class="dos"><a href="Articles.html"> Articles </a></li>
+				<li class="dos"><a href="Galerie.html"> Galerie</a></li>
+				<li class="dos"><a href="A_Propos.html"> À Propos </a></li>
+				<li class="dob"><a href="https://www.facebook.com/projet.web.737" class="fa fa-facebook"></a></li>
+				<li class="dob"><a href="#" class="fa fa-twitter"></a></li>
+				<li class="dob"><a href="#" class="fa fa-snapchat-ghost"></a></li>
+			</ul>
+		</div>
+	</footer>
+
+
+	<footer class="certif">
+		<p>CuStorm © 2020. Tous droits réservés</p>
+	</footer>
+
+</body>
+
+</html>

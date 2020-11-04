@@ -1,0 +1,255 @@
+body {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.displayed {
+	flex-direction: column;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
+
+html {
+	background: url(https://images.unsplash.com/photo-1566138702430-e9de69726fe3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@font-face {
+	font-family: "my_happy_endingregular";
+	src: url("font/myhappyendingregular-lx7g-webfont.woff2") format("woff2"), url("font/myhappyendingregular-lx7g-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "beat_word_demoregular";
+	src: url("font/beatworddemo-nrl20-webfont.woff2") format("woff2"), url("font/beatworddemo-nrl20-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.header {
+	margin-top: 20px;
+	position: relative;
+}
+
+.header_logo {
+	position: relative;
+	height: 35%;
+	width: 35%;
+	top: 50%;
+	left: 50%;
+	margin-bottom: 100px;
+	transform: translate(-50%, 10%);
+}
+
+.jing {
+	text-transform: uppercase;
+	margin-left: 1.4em;
+	color: white;
+	width: 5.5em;
+	border: 2.5px solid rgb(0, 162, 255);
+	border-radius: 15px;
+	box-shadow: 0 0 6em rgb(0, 162, 255);
+	padding: 8px 12px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.shadowbox {
+	width: 94em;
+	border: 1px solid #333;
+	box-shadow: 8px 8px 5px #444;
+	padding: 8px 12px;
+	background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+	box-sizing: content-box;
+}
+
+hr {
+	height: none;
+	border: none;
+	border-top: 2.5px dashed white;
+}
+
+.art {
+	color: white;
+	margin: left;
+}
+
+ul.a {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-family: "Times New Roman", Times, serif;
+}
+
+li a {
+	float: left;
+	border-right: 1px solid #bbb;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #d3d3d3;
+	transition: 0.5s;
+}
+
+.insc {
+	border-left: 1px solid #bbb;
+}
+
+.active {
+	background-color: rgb(0, 162, 255);
+}
+
+.lien {
+	color: white;
+}
+
+footer {
+	height: 4em;
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	background-color: rgb(134, 130, 130);
+	color: #fff;
+	font-family: "Roboto", sans-serif;
+}
+.footerA {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding-top: 1rem;
+	font-family: "Roboto", sans-serif;
+}
+
+.certif {
+	height: 2.5em;
+	justify-content: center;
+	background-color: rgb(59, 59, 59);
+}
+
+ul.b {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.dos {
+	float: left;
+}
+
+.Display_equipe {
+	display: flex;
+	justify-content: center;
+}
+
+.Display_images {
+	display: inline-block;
+	padding-left: 15px;
+}
+
+.image {
+	border-radius: 10%;
+}
+
+.Display_Texte {
+	text-align: center;
+	font-family: "my_happy_endingregular";
+	font-size: 50px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: rgba(0, 0, 0, 0.459);
+}
+
+.accordion {
+	background-color: rgb(0, 162, 255);
+	color: black;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: Center;
+	outline: none;
+	font-size: 30px;
+	transition: 0.4s;
+	font-family: "beat_word_demoregular";
+}
+
+.active,
+.accordion:hover {
+	background-color: rgb(0, 162, 255);
+}
+
+.accordion:after {
+	content: "\002B";
+	color: #777;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+.panel {
+	padding: 0 18px;
+	color: white;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background-color: rgba(0, 0, 0, 0.678);
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.fa {
+	text-align: center;
+	border-radius: 50%;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #3b5998;
+	color: white;
+	margin-left: 5px;
+}
+
+.fa-twitter {
+	background: #55acee;
+	color: white;
+	margin-left: 5px;
+}
+
+.fa-snapchat-ghost {
+	background: #fffc00;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-left: 5px;
+}
+
+.dob {
+	float: right;
+}
